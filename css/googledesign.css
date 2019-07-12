@@ -490,7 +490,9 @@ p {
 .ml-4 {
     margin-left: 64px;
 }
-
+.inline-block {
+    display: inline-block;
+}
 /* buttons */
 
 .button {
