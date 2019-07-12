@@ -661,3 +661,262 @@ input[type="checkbox"]+span:before {
 input[type="checkbox"]:checked+span:before {
     content: "\2714";
 }
+
+
+/* navbar */
+.nav-wrapper {
+    display: inline-block;
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0;
+    background: #fff;
+    padding: 0 22px;
+}
+
+.nav-wrapper .nav-list,
+.nav-wrapper ul {
+    list-style: none;
+}
+
+.nav-wrapper .nav-list {
+    float: right;
+    margin-left: 42px;
+}
+
+.nav-wrapper .nav-list li {
+    float: left;
+    margin-right: 32px;
+    height: 64px;
+    line-height: 64px;
+}
+
+.nav-wrapper .nav-list li a:hover,
+.nav-wrapper .nav-list li a:active {
+    color: #4285F4;
+}
+
+.nav-wrapper .nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-wrapper .nav-left {
+    float: left;
+    margin-right: 42px;
+    margin-left: 0;
+}
+
+.nav-wrapper .nav-right {
+    float: right;
+    margin-right: 0;
+    margin-left: 42px;
+}
+
+.nav-wrapper .nav-wrapper .nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-wrapper .nav-list li a {
+    display: inline-block;
+    height: 64px;
+}
+
+.nav-wrapper .active {
+    position: relative;
+}
+
+.nav-wrapper .active:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 4px 4px 0 0;
+    background: #4285F4;
+}
+
+.brand-logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #202124;
+    float: left;
+    margin-right: 42px;
+}
+
+.nav-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav-wrapper .nav-item {
+    display: inline-block;
+    height: 64px;
+    line-height: 64px;
+}
+
+@media (max-width: 1000px) {
+    .sm-container {
+        max-width: 80%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+.nav-wrapper .nav-show {
+    display: none;
+}
+
+.nav-wrapper .nav-menu {
+    display: none;
+}
+
+.nav-menu i {
+    font-size: 42px;
+    cursor: pointer;
+    color: #202124;
+}
+
+.sidenav {
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1000;
+    background: #fff;
+    display: none;
+    transition: all 0.2s ease;
+}
+
+.sidenav h1,
+.sidenav h2,
+.sidenav h3,
+.sidenav h4,
+.sidenav h5,
+.sidenav h6,
+.sidenav .brand-logo {
+    margin: 16px;
+}
+
+.sidenav .brand-logo {
+    font-size: 36px;
+}
+
+.sidenav ul {
+    margin-top: 24px;
+    list-style: none;
+}
+
+.sidenav ul li a {
+    padding: 0 16px;
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.sidenav .active {
+    position: relative;
+}
+
+.sidenav .active:after {
+    content: '';
+    height: 100%;
+    width: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #4285F4;
+    border-radius: 5px 0 0 5px;
+}
+
+.sidenav ul li a:hover,
+.sidenav ul li a:active {
+    background: #F1F3F4;
+}
+
+.sidenav .button {
+    margin: 16px;
+}
+
+.sidenav-backdrop {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 997;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    transition: all 0.2s;
+}
+
+@media (max-width: 768px) {
+    .sm-container {
+        max-width: 95%;
+    }
+
+    .row {
+        width: 100%;
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .row .col {
+        min-width: 100%;
+        max-width: 100%;
+        display: block;
+        margin-right: 0;
+    }
+
+    .row [class*='col-'] {
+        margin-right: 0;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .nav-wrapper .nav-hide {
+        display: none;
+    }
+
+    .nav-wrapper .nav-show {
+        display: block;
+    }
+
+    .nav-wrapper .nav-menu {
+        display: block;
+    }
+
+    .sidenav {
+        display: block;
+    }
+
+    .container.p-2 {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 560px) {
+    form .right {
+        text-align: left;
+    }
+
+    form .float-right {
+        float: none;
+    }
+
+    form .float-left {
+        float: none;
+    }
+}
+
+hr {
+    border: 1px solid #bbb;
+}
