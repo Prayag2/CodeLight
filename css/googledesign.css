@@ -557,3 +557,107 @@ input[type="submit"] {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+/* forms */
+.input-field {
+    position: relative;
+    padding-top: 7px;
+    margin-bottom: 0.5rem;
+}
+
+.input-field>input,
+.input-field>textarea {
+    padding: 11px 14px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    -webkit-transition: -webkit-box-shadow 0.1s;
+    transition: -webkit-box-shadow 0.1s;
+    transition: box-shadow 0.1s;
+    transition: box-shadow 0.1s, -webkit-box-shadow 0.1s;
+}
+
+.input-field>input:focus,
+input.hasvalue,
+textarea.hasvalue,
+.input-field>textarea:focus {
+    border-color: #4285F4;
+    -webkit-box-shadow: inset 0 0 0 1px #4285F4;
+    box-shadow: inset 0 0 0 1px #4285F4;
+}
+
+.input-field>input:focus+label,
+textarea:focus+label,
+textarea.hasvalue+label,
+input.hasvalue+label {
+    top: 0;
+    color: #4285F4;
+    font-size: 14px;
+}
+
+.input-field>label {
+    position: absolute;
+    left: 14px;
+    z-index: 2;
+    color: #bbb;
+    top: 19px;
+    -webkit-transition: top 0.1s, color 0.1s, font-size 0.1s;
+    transition: top 0.1s, color 0.1s, font-size 0.1s;
+    cursor: text;
+}
+
+.input-field>span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #202124;
+}
+
+.input-field>input:focus+label:before,
+textarea:focus+label:before,
+.hasvalue+label:before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: -5%;
+    width: 110%;
+    height: 10px;
+    background: #fff;
+    z-index: -1;
+}
+
+textarea {
+    min-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+input[type="checkbox"] {
+    opacity: 0;
+}
+
+input[type="checkbox"]+span {
+    position: relative;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]+span::selection {
+    background: transparent;
+}
+
+input[type="checkbox"]+span:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: -25px;
+    border: 2px solid #4285F4;
+    border-radius: 3px;
+    line-height: 17px;
+    text-align: center;
+    color: #4285F4;
+}
+
+input[type="checkbox"]:checked+span:before {
+    content: "\2714";
+}
