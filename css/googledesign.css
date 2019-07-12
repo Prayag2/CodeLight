@@ -19,8 +19,7 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: #202124;
+    text-decoration: underline;
 }
 
 * {
@@ -496,6 +495,7 @@ p {
 /* buttons */
 
 .button {
+    text-decoration: none;
     display: inline-block;
     height: 42px;
     line-height: 40px;
@@ -687,7 +687,9 @@ input[type="checkbox"]:checked+span:before {
     background: #fff;
     padding: 0 22px;
 }
-
+.nav-wrapper a {
+    text-decoration: none;
+}
 .nav-wrapper .nav-list,
 .nav-wrapper ul {
     list-style: none;
