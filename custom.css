@@ -1,0 +1,23 @@
+.grid-example .row {
+    margin-bottom: 1rem;
+}
+
+.grid-example .row:last-child {
+    margin-bottom: 0;
+}
+
+.grid-example {
+    border: 1px solid #888;
+    border-bottom: 7px solid #888;
+    padding: 16px;
+    border-radius: 3px;
+    background: #eee;
+}
+
+.grid-example .row [class*="col-"] {
+    border: 1px solid #888;
+    background: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 3px;
+}
