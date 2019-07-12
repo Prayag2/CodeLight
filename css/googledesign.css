@@ -1074,7 +1074,7 @@ pre {
 
 code {
     white-space: pre;
-    display: block;
+    display: inline-block;
     overflow: auto;
     background: #cfdef8;
     border-left: 4px solid #4285F4;
