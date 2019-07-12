@@ -7,17 +7,17 @@
 }
 
 .grid-example {
-    border: 1px solid #888;
-    border-bottom: 7px solid #888;
+    border: 1px solid #185abc;
     padding: 16px;
     border-radius: 3px;
-    background: #eee;
+    background: #e6efff;
 }
 
 .grid-example .row [class*="col-"] {
-    border: 1px solid #888;
+    border: 1px solid #185abc;
     background: #fff;
     padding: 10px 0;
     text-align: center;
     border-radius: 3px;
+    color: #185abc;
 }
