@@ -1071,17 +1071,21 @@ hr {
 pre {
     white-space: pre;
 }
+pre > code {
+    display: block;
+    padding: 11px 16px;
+    white-space: pre;
+}
 
 code {
-    white-space: pre;
-    display: inline-block;
+    white-space: nowrap;
     overflow: auto;
     background: #cfdef8;
     border-left: 4px solid #4285F4;
     border-radius: 5px;
-    padding: 11px 17px;
+    padding: 3.2px 8px;
     font-family: monospace;
-    line-height: 1.7;
+    text-align: left;
 }
 
 /* LISTS */
