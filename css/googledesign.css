@@ -939,6 +939,15 @@ input[type="checkbox"]:checked+span:before {
     form .float-left {
         float: none;
     }
+    .nav-right {
+        margin-left: 10px;
+    }
+    .nav-left {
+        margin-right: 10px;
+    }
+    .nav-center {
+        margin: 0 10px;
+    }
     .nav-wrapper .brand-logo {
         margin-right: 10px;
     }
