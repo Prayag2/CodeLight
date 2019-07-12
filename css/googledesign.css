@@ -920,3 +920,68 @@ input[type="checkbox"]:checked+span:before {
 hr {
     border: 1px solid #bbb;
 }
+
+/* CODE */
+
+pre {
+    white-space: pre;
+}
+
+code {
+    white-space: pre;
+    display: block;
+    overflow: auto;
+    background: #cfdef8;
+    border-left: 4px solid #4285F4;
+    border-radius: 5px;
+    padding: 11px 17px;
+    font-family: monospace;
+    line-height: 1.7;
+}
+
+/* LISTS */
+ul {
+    list-style: circle inside;
+}
+
+ol {
+    list-style: decimal inside;
+}
+
+ul,
+ol {
+    margin-bottom: 0.5rem;
+    padding-left: 0;
+}
+
+ul li,
+ol li {
+    margin-bottom: 0.5rem;
+}
+
+ul li ul,
+ul li ol,
+ol li ul,
+ol li ol {
+    margin-top: 0.6rem;
+    margin-left: 1.5rem;
+}
+
+/* tables */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 12px 25px;
+    border-bottom: 1px solid #bbb;
+}
+
+td:first-child,
+th:first-child {
+    padding-left: 0;
+}
