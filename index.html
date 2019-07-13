@@ -71,11 +71,11 @@
             </div>
             <hr>
             <div class="mt-4"></div>
-                <h2>The Grid System</h2>
-                <br>
-                <p>Google Design has a simple 12 column grid system which has simple class names. This grid system is
-                    highly responsive. You can check that by resizing your browser.</p>
-                <br>
+            <h2>The Grid System</h2>
+            <br>
+            <p>Google Design has a simple 12 column grid system which has simple class names. This grid system is
+                highly responsive. You can check that by resizing your browser.</p>
+            <br>
             <div class="grid-example">
                 <div class="row">
                     <div class="col-1">col-1</div>
@@ -138,7 +138,82 @@
             <div class="mt-4"></div>
             <h2>Forms</h2>
             <br>
-            <p>The forms in Google Design are beautiful. They have a very special animation when in focus. <strong>You have to include the Javascript file to make them work</strong>. </p>
+            <p>The forms in Google Design are beautiful. They have a very special animation when in focus. You can use the grid system to make the them responsive. There are two types of forms you can use. One needs the javascript file to be included and the other one can be used without the javascript file. Here is an example below-</p>
+            <br>
+            <h4>Javascript Needed</h4>
+            <form>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="input-field">
+                            <input type="text" id="fname">
+                            <label for="fname">First Name</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="input-field">
+                            <input type="text" id="lname">
+                            <label for="lname">Last Name</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <input type="email" id="email">
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="input-field">
+                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                    <label for="msg">Your Message</label>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <input type="submit" class="button button-primary" value="Send Message">
+                    </div>
+                    <br>
+                    <div class="col-6 right">
+                        <label>
+                            <input type="checkbox">
+                            <span>This is a checkbox</span>
+                        </label>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <pre><code>&lt;form&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-6"&gt;
+            &lt;div class="input-field"&gt;
+                &lt;input type="text" id="fname"&gt;
+                &lt;label for="fname"&gt;First Name&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col-6"&gt;
+            &lt;div class="input-field"&gt;
+                &lt;input type="text" id="lname"&gt;
+                &lt;label for="lname"&gt;Last Name&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="input-field"&gt;
+        &lt;input type="email" id="email"&gt;
+        &lt;label for="email"&gt;Email Address&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class="input-field"&gt;
+        &lt;textarea name="msg" id="msg" cols="30" rows="10"&gt;&lt;/textarea&gt;
+        &lt;label for="msg"&gt;Your Message&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-6"&gt;
+            &lt;input type="submit" class="button button-primary" value="Send Message"&gt;
+        &lt;/div&gt;
+        &lt;br&gt;
+        &lt;div class="col-6 right"&gt;
+            &lt;label&gt;
+                &lt;input type="checkbox"&gt;
+                &lt;span&gt;This is a checkbox&lt;/span&gt;
+            &lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;</code></pre>
         </div>
     </div>
 

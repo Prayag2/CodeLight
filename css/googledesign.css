@@ -588,6 +588,7 @@ input[type="submit"] {
     transition: -webkit-box-shadow 0.1s;
     transition: box-shadow 0.1s;
     transition: box-shadow 0.1s, -webkit-box-shadow 0.1s;
+    width: 100%;
 }
 
 .input-field>input:focus,
