@@ -680,6 +680,7 @@ input[type="checkbox"]:checked+span:before {
 
 /* navbar */
 .nav-wrapper {
+    position: relative;
     display: inline-block;
     width: 100%;
     height: 64px;
@@ -729,7 +730,7 @@ input[type="checkbox"]:checked+span:before {
     margin-left: 42px;
 }
 
-.nav-wrapper .nav-wrapper .nav-center {
+.nav-wrapper .nav-center {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -763,7 +764,7 @@ input[type="checkbox"]:checked+span:before {
     margin-right: 42px;
 }
 
-.nav-fixed {
+.nav-wrapper.nav-fixed {
     position: fixed;
     top: 0;
     left: 0;
