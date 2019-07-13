@@ -811,7 +811,9 @@ input[type="checkbox"]:checked+span:before {
     display: none;
     transition: all 0.2s ease;
 }
-
+.sidenav a {
+    text-decoration: none;
+}
 .sidenav h1,
 .sidenav h2,
 .sidenav h3,
