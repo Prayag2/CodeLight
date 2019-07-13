@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Logo In The Center- Google Design</title>
+    <link rel="stylesheet" href="../css/googledesign.min.css">
+</head>
+
+<body>
+    <nav class="nav-wrapper nav-fixed">
+        <a href="#" class="brand-logo">Your Logo</a>
+        <ul class="nav-list nav-left nav-hide">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="nav-item nav-right nav-hide">
+            <a href="#!" class="button button-primary">Button</a>
+        </div>
+        <div class="nav-menu nav-right">
+            <i class="icon ion-md-menu"></i>
+        </div>
+    </nav>
+    <div class="sidenav-backdrop"></div>
+    <div class="sidenav">
+        <a href="#" class="brand-logo">Your Logo</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        
+    </div>
+    <script src="../js/googledesign.min.js"></script>
+    <div class="mt-4"></div>
+    <br>
+    <div class="sm-container">
+        <div class="mt-1"></div>
+        <h2>Code For This</h2>
+        <br>
+        <pre><code>&lt;!-- You can use the class "nav-fixed" to fix your navbar on the top. --&gt;
+&lt;nav class="nav-wrapper"&gt;
+    &lt;a href="#" class="brand-logo"&gt;Your Logo&lt;/a&gt;
+
+    &lt;!-- Use the class "nav-hide to hide the element on smaller screens" --&gt;
+    &lt;ul class="nav-list nav-left nav-hide"&gt;
+        &lt;li&gt;&lt;a href="#" class="active"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;!-- If you are adding another element in the navbar, then put it inside a div with the class name "nav-item" to align it to the middle. Use nav-hide to hide it on smaller screens. --&gt;
+    &lt;div class="nav-item nav-right nav-hide"&gt;
+        &lt;a href="#!" class="button button-primary"&gt;Button&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Put the ion icon element inside a div with the class name "nav-menu" to make the menu button work. --&gt;
+    &lt;div class="nav-menu nav-right"&gt;
+        &lt;i class="icon ion-md-menu"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;!-- You have to make a div with the class name "sidenav-backdrop" to make the sidenav work. This backdrop will act as a button to close the sidenav. --&gt;
+&lt;div class="sidenav-backdrop"&gt;&lt;/div&gt;
+
+&lt;!-- To make the sidenav put everything you want in a div with the class name "sidenav" --&gt;
+&lt;div class="sidenav"&gt;
+    &lt;a href="#" class="brand-logo"&gt;Your Logo&lt;/a&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="#" class="active"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!-- make sure you include the Javascript file or else it won't work.  --&gt;
+&lt;script src="../js/googledesign.min.js"&gt;&lt;/script&gt;</code></pre>
+    </div>
+    
+</body>
+
+</html>
