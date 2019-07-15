@@ -22,6 +22,3 @@
     color: #185abc;
     margin-bottom: 0.3rem;
 }
-.grid-example .row [class*="col-"]:last-child {
-    margin-bottom: 0;
-}

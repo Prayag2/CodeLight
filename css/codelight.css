@@ -699,7 +699,7 @@ input[type="checkbox"]:checked+span:before {
 
 .nav-wrapper .nav-list {
     float: right;
-    margin-left: 42px;
+    margin-left: 22px;
 }
 
 .nav-wrapper .nav-list li {
@@ -720,14 +720,14 @@ input[type="checkbox"]:checked+span:before {
 
 .nav-wrapper .nav-left {
     float: left;
-    margin-right: 42px;
+    margin-right: 22px;
     margin-left: 0;
 }
 
 .nav-wrapper .nav-right {
     float: right;
     margin-right: 0;
-    margin-left: 42px;
+    margin-left: 22px;
 }
 
 .nav-wrapper .nav-center {
@@ -761,7 +761,7 @@ input[type="checkbox"]:checked+span:before {
     font-size: 24px;
     color: #202124;
     float: left;
-    margin-right: 42px;
+    margin-right: 22px;
 }
 
 .nav-wrapper.nav-fixed {
